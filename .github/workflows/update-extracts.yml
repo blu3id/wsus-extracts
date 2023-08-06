@@ -1,0 +1,83 @@
+name: Update WSUS extracts
+
+on:
+  schedule:
+    - cron: "0 23 8-14 * *"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow one concurrent deployment
+concurrency:
+  group: "update"
+  cancel-in-progress: true
+
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: fast-exit
+        if: github.event.schedule == '0 23 8-14 * *'
+        run: |
+          if [ $(date +%u) -eq 2 ]; then
+            exit 0
+          else
+            exit 1
+          fi
+
+  update:
+    needs: cron
+    permissions:
+      contents: write
+      pull-requests: write
+    runs-on: windows-2019
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Create a new branch for updated extracts
+        id: git-branch-create
+        shell: powershell
+        run: |
+          $timestamp=$(Get-Date -UFormat '%Y-%m-%d-%H%M%S')
+          echo "TIMESTAMP=$timestamp" >> $env:GITHUB_OUTPUT
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          git branch "update-$timestamp"
+          git checkout "update-$timestamp"
+
+      - name: Fetch bootstrap SUSDB
+        env:
+          GH_TOKEN: ${{ secrets.SUSDB_TOKEN }}
+        run: gh release download susdb-initial-state -p '*.bak' -D 'C:\' -R '${{ secrets.SUSDB }}'
+        shell: powershell
+
+      - name: Run Update Script
+        id: update-script
+        working-directory: ${{ github.workspace }}
+        run: .github\workflows\update.ps1
+        shell: powershell
+
+      - name: Commit updated extracts
+        shell: powershell
+        run: |
+          git add .
+          git commit -m "Update WSUS extracts v$(Get-Date -Format "yyyy.M.d.1")"; if ($LASTEXITCODE -ne 0) { exit 0 }
+          git push --set-upstream origin `
+            update-${{steps.git-branch-create.outputs.TIMESTAMP}}
+
+      - name: Create pull request for updated extracts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: powershell
+        run: |
+          git ls-remote --exit-code --heads origin `
+          update-${{steps.git-branch-create.outputs.TIMESTAMP}}; `
+          if ($LASTEXITCODE -ne 0) { exit 0 }
+          gh pr create -B main -H `
+          update-${{steps.git-branch-create.outputs.TIMESTAMP}} `
+          --title "Update WSUS extracts v$(Get-Date -Format "yyyy.M.d.1")" `
+          --body '${{steps.git-branch-create.outputs.TIMESTAMP}}'
+
