@@ -1,0 +1,67 @@
+[
+    {
+        "OSDVersion":  "2023.8.9.1",
+        "Id":  "08492bfd-055e-4b43-ba37-b30e1fbfdfe1",
+        "Title":  "2022-05 Servicing Stack Update for Windows 10 Version 21H2 for x64-based Systems (KB5014032)",
+        "LegacyName":  "KB5014032-Windows1021h2Client-RTM-ServicingStackUpdate-X64-TSL-World",
+        "KBNumber":  "5014032",
+        "CreationDate":  "2022-05-10T17:02:06Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "SSU",
+        "FileKBNumber":  "5014032",
+        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2022/05/ssu-19041.1704-x64_c01ad66716dc695d7aa1afab622e2d8be0eb2d65.cab",
+        "AdditionalHash":  "245 122 50 15 38 85 33 65 29 17 50 107 95 44 165 204 197 167 111 138 83 47 198 106 195 181 128 115 157 0 229 251"
+    },
+    {
+        "OSDVersion":  "2023.8.9.1",
+        "Id":  "01f7dc80-5870-4a79-bb59-fe9071e01405",
+        "Title":  "2022-08 Security Update for Windows 10 Version 21H2 for x64-based Systems (KB5012170)",
+        "LegacyName":  "KB5012170-Windows1021h2Client-RTM-StandaloneSecurity-X64-TSL-World",
+        "KBNumber":  "5012170",
+        "CreationDate":  "2022-08-09T17:00:11Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "Optional",
+        "FileKBNumber":  "5012170",
+        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2022/08/windows10.0-kb5012170-x64_b120c3bdd40329520f54950d20d053d1e7660faa.cab",
+        "AdditionalHash":  "83 187 11 64 41 232 156 150 164 222 85 65 186 112 76 34 52 253 142 229 85 67 211 252 20 42 55 116 224 227 245 221"
+    },
+    {
+        "OSDVersion":  "2023.8.9.1",
+        "Id":  "88d004ff-2072-4722-a760-fc3e59fefb63",
+        "Title":  "2023-08 Cumulative Update for Windows 10 Version 21H2 for x64-based Systems (KB5029244)",
+        "LegacyName":  "KB5029244-Windows1021h2Client-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
+        "KBNumber":  "5029244",
+        "CreationDate":  "2023-08-08T17:00:07Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "LCU",
+        "FileKBNumber":  "5029244",
+        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2023/08/windows10.0-kb5029244-x64_d1ad551995a58a2e963778a71468b5159dc8d9de.cab",
+        "AdditionalHash":  "87 129 234 179 212 99 199 150 61 64 64 73 203 143 143 31 42 144 1 249 104 248 163 32 119 219 146 156 20 116 111 107"
+    },
+    {
+        "OSDVersion":  "2023.8.9.1",
+        "Id":  "d0c47291-1e26-4393-b095-ddde8cd43720",
+        "Title":  "2023-08 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 21H2 for x64 (KB5029648)",
+        "LegacyName":  "KB5029648-DotNetCumulative-21H2-Client-x64-Retail",
+        "KBNumber":  "5029648",
+        "CreationDate":  "2023-08-08T17:00:00Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "DotNetCU",
+        "FileKBNumber":  "5028951",
+        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/07/windows10.0-kb5028951-x64_2d538363207e8e4bb0595214a8c10878f6983d15.cab",
+        "AdditionalHash":  "20 200 96 163 104 66 99 6 121 19 174 2 153 197 108 166 104 44 8 65 203 142 146 104 48 231 76 168 50 68 142 146"
+    },
+    {
+        "OSDVersion":  "2023.8.9.1",
+        "Id":  "d0c47291-1e26-4393-b095-ddde8cd43720",
+        "Title":  "2023-08 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 21H2 for x64 (KB5029648)",
+        "LegacyName":  "KB5029648-DotNetCumulative-21H2-Client-x64-Retail",
+        "KBNumber":  "5029648",
+        "CreationDate":  "2023-08-08T17:00:00Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "DotNetCU",
+        "FileKBNumber":  "5028946",
+        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/07/windows10.0-kb5028946-x64_fa4d9c33f3f8d17e3697977a9332425b2cda673b.cab",
+        "AdditionalHash":  "187 55 222 140 158 26 12 192 85 241 192 175 58 8 137 163 109 110 135 104 75 22 235 204 29 133 15 14 150 182 96 133"
+    }
+]
