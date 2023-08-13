@@ -15,13 +15,19 @@ concurrency:
 jobs:
   cron:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
     steps:
       - name: fast-exit
+        env:
+          GH_TOKEN: ${{ github.token }}
         if: github.event.schedule == '0 23 8-14 * *'
         run: |
           if [ $(date +%u) -eq 2 ]; then
             exit 0
           else
+            gh run cancel ${{ github.run_id }} -R ${{ github.repository }}
+            gh run watch ${{ github.run_id }} -R ${{ github.repository }}
             exit 1
           fi
 
