@@ -1,6 +1,6 @@
 [
     {
-        "OSDVersion":  "2023.9.13.1",
+        "OSDVersion":  "2023.9.12.1",
         "Id":  "f7b69dc0-a79b-470d-8ef4-489837fecd87",
         "Title":  "2022-12 Security Update for Windows 10 Version 22H2 for x64-based Systems (KB5012170)",
         "LegacyName":  "KB5012170-Windows1022H2-RTM-StandaloneSecurity-X64-TSL-World",
@@ -13,7 +13,7 @@
         "AdditionalHash":  "83 187 11 64 41 232 156 150 164 222 85 65 186 112 76 34 52 253 142 229 85 67 211 252 20 42 55 116 224 227 245 221"
     },
     {
-        "OSDVersion":  "2023.9.13.1",
+        "OSDVersion":  "2023.9.12.1",
         "Id":  "369cd8c2-1e7e-49ba-a604-b0095b745159",
         "Title":  "Microsoft .NET Framework 4.8.1 for Windows 10 Version 22H2 for x64 (KB5011048)",
         "LegacyName":  "KB5011048-DotNetStandalone-22H2-Client-x64-Retail",
@@ -26,7 +26,7 @@
         "AdditionalHash":  "116 59 241 74 54 5 174 38 35 79 67 235 33 67 161 174 38 210 18 186 35 153 156 24 255 105 253 55 210 217 122 3"
     },
     {
-        "OSDVersion":  "2023.9.13.1",
+        "OSDVersion":  "2023.9.12.1",
         "Id":  "b4808387-8020-4685-8d60-30eadf344849",
         "Title":  "2023-09 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5030180)",
         "LegacyName":  "KB5030180-DotNetCumulative-22H2-Client-x64-Retail",
@@ -39,7 +39,7 @@
         "AdditionalHash":  "72 168 172 194 8 23 11 71 62 125 238 239 24 42 12 6 206 127 136 192 48 162 92 55 17 102 76 97 240 171 195 9"
     },
     {
-        "OSDVersion":  "2023.9.13.1",
+        "OSDVersion":  "2023.9.12.1",
         "Id":  "b4808387-8020-4685-8d60-30eadf344849",
         "Title":  "2023-09 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5030180)",
         "LegacyName":  "KB5030180-DotNetCumulative-22H2-Client-x64-Retail",
@@ -52,7 +52,7 @@
         "AdditionalHash":  "192 154 180 88 57 237 221 91 248 92 55 108 125 85 187 19 196 69 146 109 190 109 143 120 3 189 48 93 92 76 179 62"
     },
     {
-        "OSDVersion":  "2023.9.13.1",
+        "OSDVersion":  "2023.9.12.1",
         "Id":  "4aec4d66-a06c-4544-9f79-55ace822e015",
         "Title":  "2023-09 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5030211)",
         "LegacyName":  "KB5030211-Windows1022H2-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
