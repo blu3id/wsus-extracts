@@ -97,5 +97,5 @@ jobs:
       - name: Refresh bootstrap SUSDB
         env:
           GH_TOKEN: ${{ secrets.SUSDB_TOKEN }}
-        run: gh release upload susdb-initial-state -p 'C:\SUSDB.bak' --clobber -R '${{ secrets.SUSDB }}'
+        run: gh release upload susdb-initial-state 'C:\SUSDB.bak' --clobber -R '${{ secrets.SUSDB }}'
         shell: powershell
