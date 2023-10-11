@@ -36,7 +36,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    runs-on: windows-2022
+    runs-on: windows-2019
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -65,6 +65,12 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: .github\workflows\update.ps1
         shell: powershell
+
+      - uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: WSUS_PostInstall.log
+          path: C:\WSUS_PostInstall.log
 
       - name: Commit updated extracts
         shell: powershell

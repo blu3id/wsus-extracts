@@ -56,6 +56,11 @@ Write-Host "> Running WSUS Post-install"
 $WSUSDir = "C:\WSUS_Updates"
 C:\Program` Files\Update` Services\Tools\wsusutil.exe postinstall CONTENT_DIR=$WSUSDir
 
+$PostInstallLog = Get-Item "$env:UserProfile\AppData\Local\Temp\WSUS_PostInstall*.log"
+if (Test-Path $PostInstallLog) {
+    Move-Item -Path $PostInstallLog -Destination "C:\WSUS_PostInstall.log"
+}
+
 Write-Host "> Downloading SQLCmd and dependencies"
 New-Item -Path "C:\" -Name "temp" -ItemType "directory" -Force | Out-Null
 
