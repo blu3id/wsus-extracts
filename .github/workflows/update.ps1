@@ -121,3 +121,10 @@ $21h2 = (Extract-Updates -Updates $updates -Build "21H2" | ConvertTo-Json) -repl
 Set-Content -Value $utf8.GetBytes($21h2) -Encoding Byte -Path windows-10-21h2.json
 $22h2 = (Extract-Updates -Updates $updates -Build "22H2" | ConvertTo-Json) -replace "`r`n","`n"
 Set-Content -Value $utf8.GetBytes($22h2) -Encoding Byte -Path windows-10-22h2.json
+
+Write-Host "> Stopping WSUS Service"
+Stop-Service -Name "WsusService", "W3SVC"
+
+Write-Host "> Creating backup of SUSDB"
+$sqlcmd_path = "C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\SQLCmd.exe"
+Start-Process -FilePath $sqlcmd_path -ArgumentList '-E -S np:\\.\pipe\MICROSOFT##WID\tsql\query -Q "BACKUP DATABASE [SUSDB] TO  DISK = N''C:\SUSDB.bak'' WITH  NOFORMAT, NOINIT,  NAME = N''SUSDB Full Backup'', NOSKIP, REWIND, NOUNLOAD, COMPRESSION,  STATS = 10, CHECKSUM"'

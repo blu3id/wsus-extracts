@@ -94,3 +94,8 @@ jobs:
           --title "Update WSUS extracts v$(Get-Date -Format "yyyy.M.d.1")" `
           --body '${{steps.git-branch-create.outputs.TIMESTAMP}}'
 
+      - name: Refresh bootstrap SUSDB
+        env:
+          GH_TOKEN: ${{ secrets.SUSDB_TOKEN }}
+        run: gh release upload susdb-initial-state -p 'C:\SUSDB.bak' --clobber -R '${{ secrets.SUSDB }}'
+        shell: powershell
