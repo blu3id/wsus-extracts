@@ -6,6 +6,10 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      version:
+        description: 'String for OSDVersion usualy in format: yyyy.M.d.1'
+        required: false
 
 # Allow one concurrent deployment
 concurrency:
@@ -49,7 +53,8 @@ jobs:
         run: |
           $timestamp=$(Get-Date -UFormat '%Y-%m-%d-%H%M%S')
           echo "TIMESTAMP=$timestamp" >> $env:GITHUB_OUTPUT
-          $version=$(Get-Date -Format "yyyy.M.d.1")
+          $inputVersion="${{inputs.version}}"
+          if ($inputVersion) { $version=$inputVersion } else { $version=$(Get-Date -Format "yyyy.M.d.1") }
           echo "VERSION=$version" >> $env:GITHUB_OUTPUT
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
