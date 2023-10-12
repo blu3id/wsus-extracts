@@ -40,19 +40,6 @@
     },
     {
         "OSDVersion":  "2023.10.10.1",
-        "Id":  "f6d86262-106e-4852-8438-a51b8fedd757",
-        "Title":  "2023-10 Cumulative Update for Windows 10 Version 21H2 for x64-based Systems (KB5031356)",
-        "LegacyName":  "KB5031356-Windows1021h2Client-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
-        "KBNumber":  "5031356",
-        "CreationDate":  "2023-10-10T17:00:07Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "LCU",
-        "FileKBNumber":  "5031356",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/10/windows10.0-kb5031356-x64_0d31171765b9155826bfa774366e3d63c891a290.cab",
-        "AdditionalHash":  "194 102 26 79 94 62 60 182 120 108 140 229 174 110 221 128 125 157 118 89 251 212 178 52 227 82 88 36 35 177 46 152"
-    },
-    {
-        "OSDVersion":  "2023.10.10.1",
         "Id":  "4ab54529-a352-44ca-8b4f-5d13b4cf69b5",
         "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 21H2 for x64-based Systems (KB5031539)",
         "LegacyName":  "KB5031539-Windows1021h2Client-RTM-ServicingStackUpdate-X64-TSL-World",
@@ -63,6 +50,19 @@
         "FileKBNumber":  "5031539",
         "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/10/ssu-19041.3562-x64_bf1e4bd96a843cc56a3127ca721a5415ff3100e6.cab",
         "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
+    },
+    {
+        "OSDVersion":  "2023.10.10.1",
+        "Id":  "f6d86262-106e-4852-8438-a51b8fedd757",
+        "Title":  "2023-10 Cumulative Update for Windows 10 Version 21H2 for x64-based Systems (KB5031356)",
+        "LegacyName":  "KB5031356-Windows1021h2Client-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
+        "KBNumber":  "5031356",
+        "CreationDate":  "2023-10-10T17:00:07Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "LCU",
+        "FileKBNumber":  "5031356",
+        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/10/windows10.0-kb5031356-x64_0d31171765b9155826bfa774366e3d63c891a290.cab",
+        "AdditionalHash":  "194 102 26 79 94 62 60 182 120 108 140 229 174 110 221 128 125 157 118 89 251 212 178 52 227 82 88 36 35 177 46 152"
     },
     {
         "OSDVersion":  "2023.10.10.1",

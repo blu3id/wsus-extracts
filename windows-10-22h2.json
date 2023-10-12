@@ -53,29 +53,16 @@
     },
     {
         "OSDVersion":  "2023.10.10.1",
-        "Id":  "f4fce270-a397-467f-b121-aa24991da4e5",
-        "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 22H2 for x64-based Systems (KB5031539)",
-        "LegacyName":  "KB5031539-Windows1022H2-RTM-ServicingStackUpdate-X64-TSL-World",
-        "KBNumber":  "5031539",
-        "CreationDate":  "2023-10-10T17:00:06Z",
+        "Id":  "dd1a6956-827c-4cce-81da-715ba4b27197",
+        "Title":  "2023-10 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5031224)",
+        "LegacyName":  "KB5031224-DotNetCumulative-22H2-Client-x64-Retail",
+        "KBNumber":  "5031224",
+        "CreationDate":  "2023-10-10T17:00:00Z",
         "UpdateArch":  "x64",
-        "UpdateGroup":  "SSU",
-        "FileKBNumber":  "5031539",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/10/ssu-19041.3562-x64_bf1e4bd96a843cc56a3127ca721a5415ff3100e6.cab",
-        "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
-    },
-    {
-        "OSDVersion":  "2023.10.10.1",
-        "Id":  "703c6185-462a-48a0-93ba-878eedcb384f",
-        "Title":  "2023-10 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5031356)",
-        "LegacyName":  "KB5031356-Windows1022H2-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
-        "KBNumber":  "5031356",
-        "CreationDate":  "2023-10-10T17:00:07Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "LCU",
-        "FileKBNumber":  "5031356",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/10/windows10.0-kb5031356-x64_0d31171765b9155826bfa774366e3d63c891a290.cab",
-        "AdditionalHash":  "194 102 26 79 94 62 60 182 120 108 140 229 174 110 221 128 125 157 118 89 251 212 178 52 227 82 88 36 35 177 46 152"
+        "UpdateGroup":  "DotNetCU",
+        "FileKBNumber":  "5030841",
+        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2023/08/windows10.0-kb5030841-x64-ndp48_80af0d4fcbad7e43f399f76a16498264d2d0a841.cab",
+        "AdditionalHash":  "73 113 5 68 124 153 222 233 238 30 124 218 117 194 224 224 51 191 225 20 244 239 27 236 78 34 14 172 154 98 108 159"
     },
     {
         "OSDVersion":  "2023.10.10.1",
@@ -92,15 +79,28 @@
     },
     {
         "OSDVersion":  "2023.10.10.1",
-        "Id":  "dd1a6956-827c-4cce-81da-715ba4b27197",
-        "Title":  "2023-10 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5031224)",
-        "LegacyName":  "KB5031224-DotNetCumulative-22H2-Client-x64-Retail",
-        "KBNumber":  "5031224",
-        "CreationDate":  "2023-10-10T17:00:00Z",
+        "Id":  "703c6185-462a-48a0-93ba-878eedcb384f",
+        "Title":  "2023-10 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5031356)",
+        "LegacyName":  "KB5031356-Windows1022H2-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
+        "KBNumber":  "5031356",
+        "CreationDate":  "2023-10-10T17:00:07Z",
         "UpdateArch":  "x64",
-        "UpdateGroup":  "DotNetCU",
-        "FileKBNumber":  "5030841",
-        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2023/08/windows10.0-kb5030841-x64-ndp48_80af0d4fcbad7e43f399f76a16498264d2d0a841.cab",
-        "AdditionalHash":  "73 113 5 68 124 153 222 233 238 30 124 218 117 194 224 224 51 191 225 20 244 239 27 236 78 34 14 172 154 98 108 159"
+        "UpdateGroup":  "LCU",
+        "FileKBNumber":  "5031356",
+        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/10/windows10.0-kb5031356-x64_0d31171765b9155826bfa774366e3d63c891a290.cab",
+        "AdditionalHash":  "194 102 26 79 94 62 60 182 120 108 140 229 174 110 221 128 125 157 118 89 251 212 178 52 227 82 88 36 35 177 46 152"
+    },
+    {
+        "OSDVersion":  "2023.10.10.1",
+        "Id":  "f4fce270-a397-467f-b121-aa24991da4e5",
+        "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 22H2 for x64-based Systems (KB5031539)",
+        "LegacyName":  "KB5031539-Windows1022H2-RTM-ServicingStackUpdate-X64-TSL-World",
+        "KBNumber":  "5031539",
+        "CreationDate":  "2023-10-10T17:00:06Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "SSU",
+        "FileKBNumber":  "5031539",
+        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/10/ssu-19041.3562-x64_bf1e4bd96a843cc56a3127ca721a5415ff3100e6.cab",
+        "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
     }
 ]
