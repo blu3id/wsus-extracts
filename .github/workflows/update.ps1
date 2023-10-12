@@ -132,4 +132,5 @@ Stop-Service -Name "WsusService", "W3SVC"
 
 Write-Host "> Creating backup of SUSDB"
 $sqlcmd_path = "C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\SQLCmd.exe"
-Start-Process -FilePath $sqlcmd_path -ArgumentList '-E -S np:\\.\pipe\MICROSOFT##WID\tsql\query -Q "BACKUP DATABASE [SUSDB] TO  DISK = N''C:\SUSDB.bak'' WITH  NOFORMAT, NOINIT,  NAME = N''SUSDB Full Backup'', NOSKIP, REWIND, NOUNLOAD, COMPRESSION,  STATS = 10, CHECKSUM"'  -Wait -NoNewWindow
+Remove-Item -Path "C:\temp\SUSDB.bak" -Force
+Start-Process -FilePath $sqlcmd_path -ArgumentList '-E -S np:\\.\pipe\MICROSOFT##WID\tsql\query -Q "BACKUP DATABASE [SUSDB] TO  DISK = N''C:\temp\SUSDB.bak'' WITH  NOFORMAT, NOINIT,  NAME = N''SUSDB Full Backup'', NOSKIP, REWIND, NOUNLOAD, COMPRESSION,  STATS = 10, CHECKSUM"'  -Wait -NoNewWindow
