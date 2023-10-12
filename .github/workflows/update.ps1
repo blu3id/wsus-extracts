@@ -1,7 +1,12 @@
+param (
+    [string]$version = $(Get-Date -Format "yyyy.M.d.1")
+)
+
 function Extract-Updates {
     param (
         [Microsoft.UpdateServices.Administration.UpdateCollection]$updates = $(throw "-Updates is required"),
-        [string]$build = $(throw "-Build is required")
+        [string]$build = $(throw "-Build is required"),
+        [string]$version = $(throw "-Version is required")
     )
 
     $filtered = $updates | where-object { 
@@ -29,7 +34,7 @@ function Extract-Updates {
             }
 
             $update = [ordered]@{
-                    OSDVersion = $(Get-Date -Format "yyyy.M.d.1")
+                    OSDVersion = $version
                     Id = $u.Id.UpdateId.Guid
                     Title = $u.Title
                     LegacyName = $u.LegacyName
@@ -117,9 +122,9 @@ Write-Host "> Writing WSUS Extracts"
 $updates = $wsus.GetUpdates()
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
-$21h2 = (Extract-Updates -Updates $updates -Build "21H2" | ConvertTo-Json) -replace "`r`n","`n"
+$21h2 = (Extract-Updates -Updates $updates -Build "21H2" -Version $version | ConvertTo-Json) -replace "`r`n","`n"
 Set-Content -Value $utf8.GetBytes($21h2) -Encoding Byte -Path windows-10-21h2.json
-$22h2 = (Extract-Updates -Updates $updates -Build "22H2" | ConvertTo-Json) -replace "`r`n","`n"
+$22h2 = (Extract-Updates -Updates $updates -Build "22H2" -Version $version | ConvertTo-Json) -replace "`r`n","`n"
 Set-Content -Value $utf8.GetBytes($22h2) -Encoding Byte -Path windows-10-22h2.json
 
 Write-Host "> Stopping WSUS Service"
@@ -127,4 +132,4 @@ Stop-Service -Name "WsusService", "W3SVC"
 
 Write-Host "> Creating backup of SUSDB"
 $sqlcmd_path = "C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\SQLCmd.exe"
-Start-Process -FilePath $sqlcmd_path -ArgumentList '-E -S np:\\.\pipe\MICROSOFT##WID\tsql\query -Q "BACKUP DATABASE [SUSDB] TO  DISK = N''C:\SUSDB.bak'' WITH  NOFORMAT, NOINIT,  NAME = N''SUSDB Full Backup'', NOSKIP, REWIND, NOUNLOAD, COMPRESSION,  STATS = 10, CHECKSUM"'
+Start-Process -FilePath $sqlcmd_path -ArgumentList '-E -S np:\\.\pipe\MICROSOFT##WID\tsql\query -Q "BACKUP DATABASE [SUSDB] TO  DISK = N''C:\SUSDB.bak'' WITH  NOFORMAT, NOINIT,  NAME = N''SUSDB Full Backup'', NOSKIP, REWIND, NOUNLOAD, COMPRESSION,  STATS = 10, CHECKSUM"'  -Wait -NoNewWindow
