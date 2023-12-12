@@ -1,6 +1,6 @@
 [
     {
-        "OSDVersion":  "2023.11.14.1",
+        "OSDVersion":  "2023.12.12.1",
         "Id":  "f7b69dc0-a79b-470d-8ef4-489837fecd87",
         "Title":  "2022-12 Security Update for Windows 10 Version 22H2 for x64-based Systems (KB5012170)",
         "LegacyName":  "KB5012170-Windows1022H2-RTM-StandaloneSecurity-X64-TSL-World",
@@ -13,7 +13,7 @@
         "AdditionalHash":  "83 187 11 64 41 232 156 150 164 222 85 65 186 112 76 34 52 253 142 229 85 67 211 252 20 42 55 116 224 227 245 221"
     },
     {
-        "OSDVersion":  "2023.11.14.1",
+        "OSDVersion":  "2023.12.12.1",
         "Id":  "369cd8c2-1e7e-49ba-a604-b0095b745159",
         "Title":  "Microsoft .NET Framework 4.8.1 for Windows 10 Version 22H2 for x64 (KB5011048)",
         "LegacyName":  "KB5011048-DotNetStandalone-22H2-Client-x64-Retail",
@@ -26,7 +26,7 @@
         "AdditionalHash":  "116 59 241 74 54 5 174 38 35 79 67 235 33 67 161 174 38 210 18 186 35 153 156 24 255 105 253 55 210 217 122 3"
     },
     {
-        "OSDVersion":  "2023.11.14.1",
+        "OSDVersion":  "2023.12.12.1",
         "Id":  "f4fce270-a397-467f-b121-aa24991da4e5",
         "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 22H2 for x64-based Systems (KB5031539)",
         "LegacyName":  "KB5031539-Windows1022H2-RTM-ServicingStackUpdate-X64-TSL-World",
@@ -39,7 +39,7 @@
         "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
     },
     {
-        "OSDVersion":  "2023.11.14.1",
+        "OSDVersion":  "2023.12.12.1",
         "Id":  "67075cd9-42b7-43bd-a45d-7a98df4ecd5e",
         "Title":  "2023-11 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5032339)",
         "LegacyName":  "KB5032339-DotNetCumulative-22H2-Client-x64-Retail",
@@ -52,7 +52,7 @@
         "AdditionalHash":  "69 199 163 64 181 0 232 236 218 167 194 160 215 181 18 81 224 168 240 32 26 228 240 114 162 29 216 3 127 239 75 249"
     },
     {
-        "OSDVersion":  "2023.11.14.1",
+        "OSDVersion":  "2023.12.12.1",
         "Id":  "67075cd9-42b7-43bd-a45d-7a98df4ecd5e",
         "Title":  "2023-11 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5032339)",
         "LegacyName":  "KB5032339-DotNetCumulative-22H2-Client-x64-Retail",
@@ -65,16 +65,16 @@
         "AdditionalHash":  "65 10 213 255 107 171 172 239 51 159 54 237 166 160 55 54 223 3 118 172 125 67 36 147 235 92 173 164 28 214 247 53"
     },
     {
-        "OSDVersion":  "2023.11.14.1",
-        "Id":  "bcc06f8a-1e98-4d0a-a45f-c1aa4a06bc5e",
-        "Title":  "2023-11 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5032189)",
-        "LegacyName":  "KB5032189-Windows1022H2-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
-        "KBNumber":  "5032189",
-        "CreationDate":  "2023-11-14T18:00:07Z",
+        "OSDVersion":  "2023.12.12.1",
+        "Id":  "a198e584-a312-4fd5-b2f5-ef81e8d523bb",
+        "Title":  "2023-12 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5033372)",
+        "LegacyName":  "KB5033372-Windows1022H2-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
+        "KBNumber":  "5033372",
+        "CreationDate":  "2023-12-12T18:00:06Z",
         "UpdateArch":  "x64",
         "UpdateGroup":  "LCU",
-        "FileKBNumber":  "5032189",
-        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2023/11/windows10.0-kb5032189-x64_aac75256ebde2ed231644395ba1d570907515dd3.cab",
-        "AdditionalHash":  "129 29 170 221 130 115 64 171 98 7 17 243 81 111 95 152 242 40 146 174 159 41 120 174 200 75 87 136 140 92 87 10"
+        "FileKBNumber":  "5033372",
+        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/12/windows10.0-kb5033372-x64_42568aafdedaf72a9699250eb48da5f876cdc7c2.cab",
+        "AdditionalHash":  "31 206 62 47 157 119 101 251 247 251 208 145 80 81 144 129 160 104 33 102 141 94 150 227 12 125 163 6 23 69 47 162"
     }
 ]
