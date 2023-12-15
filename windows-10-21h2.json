@@ -1,6 +1,6 @@
 [
     {
-        "OSDVersion":  "2023.11.14.1",
+        "OSDVersion":  "2023.12.12.1",
         "Id":  "01f7dc80-5870-4a79-bb59-fe9071e01405",
         "Title":  "2022-08 Security Update for Windows 10 Version 21H2 for x64-based Systems (KB5012170)",
         "LegacyName":  "KB5012170-Windows1021h2Client-RTM-StandaloneSecurity-X64-TSL-World",
@@ -13,7 +13,7 @@
         "AdditionalHash":  "83 187 11 64 41 232 156 150 164 222 85 65 186 112 76 34 52 253 142 229 85 67 211 252 20 42 55 116 224 227 245 221"
     },
     {
-        "OSDVersion":  "2023.11.14.1",
+        "OSDVersion":  "2023.12.12.1",
         "Id":  "4ab54529-a352-44ca-8b4f-5d13b4cf69b5",
         "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 21H2 for x64-based Systems (KB5031539)",
         "LegacyName":  "KB5031539-Windows1021h2Client-RTM-ServicingStackUpdate-X64-TSL-World",
@@ -26,20 +26,7 @@
         "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
     },
     {
-        "OSDVersion":  "2023.11.14.1",
-        "Id":  "fb123f81-754e-4841-aa0d-fece5f840dae",
-        "Title":  "2023-11 Cumulative Update for Windows 10 Version 21H2 for x64-based Systems (KB5032189)",
-        "LegacyName":  "KB5032189-Windows1021h2Client-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
-        "KBNumber":  "5032189",
-        "CreationDate":  "2023-11-14T18:00:06Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "LCU",
-        "FileKBNumber":  "5032189",
-        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2023/11/windows10.0-kb5032189-x64_aac75256ebde2ed231644395ba1d570907515dd3.cab",
-        "AdditionalHash":  "129 29 170 221 130 115 64 171 98 7 17 243 81 111 95 152 242 40 146 174 159 41 120 174 200 75 87 136 140 92 87 10"
-    },
-    {
-        "OSDVersion":  "2023.11.14.1",
+        "OSDVersion":  "2023.12.12.1",
         "Id":  "2aca9060-0321-4f44-b15d-ebbd911a6295",
         "Title":  "2023-11 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 21H2 for x64 (KB5032338)",
         "LegacyName":  "KB5032338-DotNetCumulative-21H2-Client-x64-Retail",
@@ -52,7 +39,7 @@
         "AdditionalHash":  "69 199 163 64 181 0 232 236 218 167 194 160 215 181 18 81 224 168 240 32 26 228 240 114 162 29 216 3 127 239 75 249"
     },
     {
-        "OSDVersion":  "2023.11.14.1",
+        "OSDVersion":  "2023.12.12.1",
         "Id":  "2aca9060-0321-4f44-b15d-ebbd911a6295",
         "Title":  "2023-11 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 21H2 for x64 (KB5032338)",
         "LegacyName":  "KB5032338-DotNetCumulative-21H2-Client-x64-Retail",
@@ -63,5 +50,18 @@
         "FileKBNumber":  "5032005",
         "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/11/windows10.0-kb5032005-x64-ndp481_621065982e2a439b6cfed89440309872d1587fde.cab",
         "AdditionalHash":  "65 10 213 255 107 171 172 239 51 159 54 237 166 160 55 54 223 3 118 172 125 67 36 147 235 92 173 164 28 214 247 53"
+    },
+    {
+        "OSDVersion":  "2023.12.12.1",
+        "Id":  "4d0159eb-b4da-455b-ab33-36394553f031",
+        "Title":  "2023-12 Cumulative Update for Windows 10 Version 21H2 for x64-based Systems (KB5033372)",
+        "LegacyName":  "KB5033372-Windows1021h2Client-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
+        "KBNumber":  "5033372",
+        "CreationDate":  "2023-12-12T18:00:06Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "LCU",
+        "FileKBNumber":  "5033372",
+        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/12/windows10.0-kb5033372-x64_42568aafdedaf72a9699250eb48da5f876cdc7c2.cab",
+        "AdditionalHash":  "31 206 62 47 157 119 101 251 247 251 208 145 80 81 144 129 160 104 33 102 141 94 150 227 12 125 163 6 23 69 47 162"
     }
 ]
