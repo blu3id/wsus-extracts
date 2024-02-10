@@ -127,6 +127,10 @@ Set-Content -Value $utf8.GetBytes($21h2) -Encoding Byte -Path windows-10-21h2.js
 $22h2 = (Extract-Updates -Updates $updates -Build "22H2" -Version $version | ConvertTo-Json) -replace "`r`n","`n"
 Set-Content -Value $utf8.GetBytes($22h2) -Encoding Byte -Path windows-10-22h2.json
 
+Write-Host "> Running WSUS Cleanup"
+$wsus_cleanup_path = $(Join-Path -Path $PSScriptRoot -ChildPath "wsus-cleanup" | Join-Path -ChildPath "WSUS-Cleanup.ps1")
+Start-Process -FilePath "powershell" -ArgumentList "`"$wsus_cleanup_path`"" -Wait -NoNewWindow
+
 Write-Host "> Stopping WSUS Service"
 Stop-Service -Name "WsusService", "W3SVC"
 
