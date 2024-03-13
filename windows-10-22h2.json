@@ -1,6 +1,6 @@
 [
     {
-        "OSDVersion":  "2024.2.13.1",
+        "OSDVersion":  "2024.3.12.1",
         "Id":  "f7b69dc0-a79b-470d-8ef4-489837fecd87",
         "Title":  "2022-12 Security Update for Windows 10 Version 22H2 for x64-based Systems (KB5012170)",
         "LegacyName":  "KB5012170-Windows1022H2-RTM-StandaloneSecurity-X64-TSL-World",
@@ -13,7 +13,7 @@
         "AdditionalHash":  "83 187 11 64 41 232 156 150 164 222 85 65 186 112 76 34 52 253 142 229 85 67 211 252 20 42 55 116 224 227 245 221"
     },
     {
-        "OSDVersion":  "2024.2.13.1",
+        "OSDVersion":  "2024.3.12.1",
         "Id":  "369cd8c2-1e7e-49ba-a604-b0095b745159",
         "Title":  "Microsoft .NET Framework 4.8.1 for Windows 10 Version 22H2 for x64 (KB5011048)",
         "LegacyName":  "KB5011048-DotNetStandalone-22H2-Client-x64-Retail",
@@ -26,7 +26,7 @@
         "AdditionalHash":  "116 59 241 74 54 5 174 38 35 79 67 235 33 67 161 174 38 210 18 186 35 153 156 24 255 105 253 55 210 217 122 3"
     },
     {
-        "OSDVersion":  "2024.2.13.1",
+        "OSDVersion":  "2024.3.12.1",
         "Id":  "f4fce270-a397-467f-b121-aa24991da4e5",
         "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 22H2 for x64-based Systems (KB5031539)",
         "LegacyName":  "KB5031539-Windows1022H2-RTM-ServicingStackUpdate-X64-TSL-World",
@@ -39,7 +39,7 @@
         "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
     },
     {
-        "OSDVersion":  "2024.2.13.1",
+        "OSDVersion":  "2024.3.12.1",
         "Id":  "5e266a88-e64d-438e-875b-0b158f8ecf9b",
         "Title":  "2024-01 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5034275)",
         "LegacyName":  "KB5034275-DotNetCumulative-22H2-Client-x64-Retail",
@@ -52,7 +52,7 @@
         "AdditionalHash":  "162 15 1 35 191 86 63 53 34 46 137 76 141 167 84 65 185 206 94 132 145 127 151 184 86 129 137 63 254 8 122 21"
     },
     {
-        "OSDVersion":  "2024.2.13.1",
+        "OSDVersion":  "2024.3.12.1",
         "Id":  "5e266a88-e64d-438e-875b-0b158f8ecf9b",
         "Title":  "2024-01 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5034275)",
         "LegacyName":  "KB5034275-DotNetCumulative-22H2-Client-x64-Retail",
@@ -65,7 +65,7 @@
         "AdditionalHash":  "219 253 177 2 95 195 0 22 231 155 221 229 240 173 149 118 152 207 202 165 194 212 10 184 201 233 171 79 235 190 196 22"
     },
     {
-        "OSDVersion":  "2024.2.13.1",
+        "OSDVersion":  "2024.3.12.1",
         "Id":  "17a1f13b-21a2-4b5e-b158-441cf20aca3f",
         "Title":  "2024-02 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5034685)",
         "LegacyName":  "KB5034685-DotNetCumulative-22H2-Client-x64-Retail",
@@ -78,7 +78,7 @@
         "AdditionalHash":  "51 53 227 238 47 194 243 25 93 17 19 201 227 109 60 13 226 184 90 178 72 15 207 72 249 149 189 173 83 117 60 247"
     },
     {
-        "OSDVersion":  "2024.2.13.1",
+        "OSDVersion":  "2024.3.12.1",
         "Id":  "17a1f13b-21a2-4b5e-b158-441cf20aca3f",
         "Title":  "2024-02 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5034685)",
         "LegacyName":  "KB5034685-DotNetCumulative-22H2-Client-x64-Retail",
@@ -91,16 +91,16 @@
         "AdditionalHash":  "226 94 9 21 33 90 4 147 164 154 160 41 155 31 249 223 74 218 32 89 140 203 216 69 235 218 80 55 170 238 192 59"
     },
     {
-        "OSDVersion":  "2024.2.13.1",
-        "Id":  "05e3ff70-1a55-479b-b5f6-470d8ed87ccc",
-        "Title":  "2024-02 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5034763)",
-        "LegacyName":  "KB5034763-Windows1022H2-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
-        "KBNumber":  "5034763",
-        "CreationDate":  "2024-02-13T18:00:06Z",
+        "OSDVersion":  "2024.3.12.1",
+        "Id":  "d6178fd7-2976-42d3-a7ad-fdb17ea2cbb2",
+        "Title":  "2024-03 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5035845)",
+        "LegacyName":  "KB5035845-Windows1022H2-RTM-UnifiedCumulativeSecurity-X64-TSL-World",
+        "KBNumber":  "5035845",
+        "CreationDate":  "2024-03-12T17:00:06Z",
         "UpdateArch":  "x64",
         "UpdateGroup":  "LCU",
-        "FileKBNumber":  "5034763",
-        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2024/02/windows10.0-kb5034763-x64_a381c0ece7882aefb9aeb871b3a2c2cadea25eca.cab",
-        "AdditionalHash":  "92 145 9 78 130 123 94 205 204 107 16 165 165 94 222 66 226 130 184 224 83 113 168 226 21 29 175 57 232 183 219 187"
+        "FileKBNumber":  "5035845",
+        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2024/03/windows10.0-kb5035845-x64_7f80d9768019dbdad2cf65cdd6f97e8f0b1f93ab.cab",
+        "AdditionalHash":  "90 213 223 137 135 50 205 183 51 156 185 99 240 225 103 112 224 160 247 48 250 57 61 226 74 65 140 67 143 76 148 1"
     }
 ]
