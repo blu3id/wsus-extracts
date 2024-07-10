@@ -1,6 +1,6 @@
 [
     {
-        "OSDVersion":  "2024.6.11.1",
+        "OSDVersion":  "2024.7.9.1",
         "Id":  "f7b69dc0-a79b-470d-8ef4-489837fecd87",
         "Title":  "2022-12 Security Update for Windows 10 Version 22H2 for x64-based Systems (KB5012170)",
         "LegacyName":  "KB5012170-Windows1022H2-RTM-StandaloneSecurity-X64-TSL-World",
@@ -13,7 +13,7 @@
         "AdditionalHash":  "83 187 11 64 41 232 156 150 164 222 85 65 186 112 76 34 52 253 142 229 85 67 211 252 20 42 55 116 224 227 245 221"
     },
     {
-        "OSDVersion":  "2024.6.11.1",
+        "OSDVersion":  "2024.7.9.1",
         "Id":  "369cd8c2-1e7e-49ba-a604-b0095b745159",
         "Title":  "Microsoft .NET Framework 4.8.1 for Windows 10 Version 22H2 for x64 (KB5011048)",
         "LegacyName":  "KB5011048-DotNetStandalone-22H2-Client-x64-Retail",
@@ -26,7 +26,7 @@
         "AdditionalHash":  "116 59 241 74 54 5 174 38 35 79 67 235 33 67 161 174 38 210 18 186 35 153 156 24 255 105 253 55 210 217 122 3"
     },
     {
-        "OSDVersion":  "2024.6.11.1",
+        "OSDVersion":  "2024.7.9.1",
         "Id":  "f4fce270-a397-467f-b121-aa24991da4e5",
         "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 22H2 for x64-based Systems (KB5031539)",
         "LegacyName":  "KB5031539-Windows1022H2-RTM-ServicingStackUpdate-X64-TSL-World",
@@ -39,68 +39,42 @@
         "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
     },
     {
-        "OSDVersion":  "2024.6.11.1",
-        "Id":  "e4e4724a-87d9-409d-81b7-7784572ca154",
-        "Title":  "2024-04 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5037036)",
-        "LegacyName":  "KB5037036-DotNetCumulative-22H2-Client-x64-Retail",
-        "KBNumber":  "5037036",
-        "CreationDate":  "2024-04-09T17:00:00Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "DotNetCU",
-        "FileKBNumber":  "5036618",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2024/03/windows10.0-kb5036618-x64-ndp481_1ce93ffb46bf7e711715abd1e50f4c201d8abea5.cab",
-        "AdditionalHash":  "69 65 146 85 95 148 160 77 192 144 220 145 45 253 114 61 24 30 76 224 168 116 25 194 116 209 19 236 126 127 33 135"
-    },
-    {
-        "OSDVersion":  "2024.6.11.1",
-        "Id":  "e4e4724a-87d9-409d-81b7-7784572ca154",
-        "Title":  "2024-04 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5037036)",
-        "LegacyName":  "KB5037036-DotNetCumulative-22H2-Client-x64-Retail",
-        "KBNumber":  "5037036",
-        "CreationDate":  "2024-04-09T17:00:00Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "DotNetCU",
-        "FileKBNumber":  "5036608",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2024/03/windows10.0-kb5036608-x64-ndp48_4d101a494dd5ddb24b4388ed4febf10f793ea6ee.cab",
-        "AdditionalHash":  "102 58 240 154 128 93 181 100 253 21 58 203 168 7 185 221 174 141 138 166 179 81 228 156 23 152 19 175 41 7 31 173"
-    },
-    {
-        "OSDVersion":  "2024.6.11.1",
-        "Id":  "d36b6f00-5e49-4315-8c11-d76e03f86137",
-        "Title":  "2024-05 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5038285)",
-        "LegacyName":  "KB5038285-DotNetCumulative-22H2-Client-x64-Retail",
-        "KBNumber":  "5038285",
-        "CreationDate":  "2024-05-14T17:00:00Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "DotNetCU",
-        "FileKBNumber":  "5037587",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/updt/2024/04/windows10.0-kb5037587-x64-ndp481_cb28f81d7a4da49f9c1297c3c249229049226482.cab",
-        "AdditionalHash":  "152 177 77 150 115 8 24 184 240 205 162 238 16 233 171 129 208 65 76 151 154 170 108 94 113 207 155 97 195 146 102 70"
-    },
-    {
-        "OSDVersion":  "2024.6.11.1",
-        "Id":  "d36b6f00-5e49-4315-8c11-d76e03f86137",
-        "Title":  "2024-05 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5038285)",
-        "LegacyName":  "KB5038285-DotNetCumulative-22H2-Client-x64-Retail",
-        "KBNumber":  "5038285",
-        "CreationDate":  "2024-05-14T17:00:00Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "DotNetCU",
-        "FileKBNumber":  "5037592",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/updt/2024/04/windows10.0-kb5037592-x64-ndp48_40fc1be8bcb57edf90915c9b46bb8382ba54e6e6.cab",
-        "AdditionalHash":  "146 184 96 122 145 225 208 64 178 182 226 100 12 239 53 239 184 252 155 39 12 132 220 3 118 178 198 130 106 97 177 114"
-    },
-    {
-        "OSDVersion":  "2024.6.11.1",
-        "Id":  "0d03f74f-80ef-4433-9c3d-f4db5ca70f85",
-        "Title":  "2024-06 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5039211)",
-        "LegacyName":  "KB5039211-UnifiedCumulative-22H2-Client-x64-Retail",
-        "KBNumber":  "5039211",
-        "CreationDate":  "2024-06-11T17:00:00Z",
+        "OSDVersion":  "2024.7.9.1",
+        "Id":  "6bf54856-bf31-4c83-8842-2a89694ba057",
+        "Title":  "2024-07 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5040427)",
+        "LegacyName":  "KB5040427-UnifiedCumulative-22H2-Client-x64-Retail",
+        "KBNumber":  "5040427",
+        "CreationDate":  "2024-07-09T17:00:00Z",
         "UpdateArch":  "x64",
         "UpdateGroup":  "Optional",
-        "FileKBNumber":  "5039211",
-        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2024/06/windows10.0-kb5039211-x64_2d86e5b028c31ac601f5611ccc9ccadffef2351a.cab",
-        "AdditionalHash":  "154 66 104 115 207 135 213 58 241 31 183 21 135 238 143 135 64 47 135 154 74 195 179 48 93 121 49 26 27 67 58 147"
+        "FileKBNumber":  "5040427",
+        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2024/07/windows10.0-kb5040427-x64_a47e0ad9acf4998546fe98a6a539b60fd67d6515.cab",
+        "AdditionalHash":  "242 44 121 26 47 243 78 14 197 41 198 187 61 23 25 228 168 244 183 70 250 234 156 219 212 98 4 129 149 236 217 167"
+    },
+    {
+        "OSDVersion":  "2024.7.9.1",
+        "Id":  "dce6a540-cc87-4c55-8db6-63af55cfd9fd",
+        "Title":  "2024-07 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5041019)",
+        "LegacyName":  "KB5041019-DotNetCumulative-22H2-Client-x64-Retail",
+        "KBNumber":  "5041019",
+        "CreationDate":  "2024-07-09T17:00:00Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "DotNetCU",
+        "FileKBNumber":  "5039884",
+        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2024/06/windows10.0-kb5039884-x64-ndp48_03763618bbfc86637ee5a3011e6425a0dd644282.cab",
+        "AdditionalHash":  "33 234 19 119 162 123 3 141 18 189 49 4 216 171 92 152 80 244 14 32 75 71 93 219 67 226 172 91 58 18 75 184"
+    },
+    {
+        "OSDVersion":  "2024.7.9.1",
+        "Id":  "dce6a540-cc87-4c55-8db6-63af55cfd9fd",
+        "Title":  "2024-07 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5041019)",
+        "LegacyName":  "KB5041019-DotNetCumulative-22H2-Client-x64-Retail",
+        "KBNumber":  "5041019",
+        "CreationDate":  "2024-07-09T17:00:00Z",
+        "UpdateArch":  "x64",
+        "UpdateGroup":  "DotNetCU",
+        "FileKBNumber":  "5039893",
+        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2024/06/windows10.0-kb5039893-x64-ndp481_7e576314530de9df35d1b27bdeff9875f2b51471.cab",
+        "AdditionalHash":  "104 162 99 41 230 3 82 207 154 7 50 4 58 99 61 162 86 10 185 222 204 46 105 4 76 48 246 132 188 85 203 250"
     }
 ]
