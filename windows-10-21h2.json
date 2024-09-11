@@ -1,6 +1,6 @@
 [
     {
-        "OSDVersion":  "2024.8.13.1",
+        "OSDVersion":  "2024.9.10.1",
         "Id":  "01f7dc80-5870-4a79-bb59-fe9071e01405",
         "Title":  "2022-08 Security Update for Windows 10 Version 21H2 for x64-based Systems (KB5012170)",
         "LegacyName":  "KB5012170-Windows1021h2Client-RTM-StandaloneSecurity-X64-TSL-World",
@@ -13,7 +13,7 @@
         "AdditionalHash":  "83 187 11 64 41 232 156 150 164 222 85 65 186 112 76 34 52 253 142 229 85 67 211 252 20 42 55 116 224 227 245 221"
     },
     {
-        "OSDVersion":  "2024.8.13.1",
+        "OSDVersion":  "2024.9.10.1",
         "Id":  "4ab54529-a352-44ca-8b4f-5d13b4cf69b5",
         "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 21H2 for x64-based Systems (KB5031539)",
         "LegacyName":  "KB5031539-Windows1021h2Client-RTM-ServicingStackUpdate-X64-TSL-World",
@@ -26,7 +26,7 @@
         "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
     },
     {
-        "OSDVersion":  "2024.8.13.1",
+        "OSDVersion":  "2024.9.10.1",
         "Id":  "4b90171d-e378-4180-8409-5b9bacaaae73",
         "Title":  "2024-04 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 21H2 for x64 (KB5037035)",
         "LegacyName":  "KB5037035-DotNetCumulative-21H2-Client-x64-Retail",
@@ -39,7 +39,7 @@
         "AdditionalHash":  "69 65 146 85 95 148 160 77 192 144 220 145 45 253 114 61 24 30 76 224 168 116 25 194 116 209 19 236 126 127 33 135"
     },
     {
-        "OSDVersion":  "2024.8.13.1",
+        "OSDVersion":  "2024.9.10.1",
         "Id":  "4b90171d-e378-4180-8409-5b9bacaaae73",
         "Title":  "2024-04 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 21H2 for x64 (KB5037035)",
         "LegacyName":  "KB5037035-DotNetCumulative-21H2-Client-x64-Retail",
@@ -52,7 +52,7 @@
         "AdditionalHash":  "102 58 240 154 128 93 181 100 253 21 58 203 168 7 185 221 174 141 138 166 179 81 228 156 23 152 19 175 41 7 31 173"
     },
     {
-        "OSDVersion":  "2024.8.13.1",
+        "OSDVersion":  "2024.9.10.1",
         "Id":  "f4380eaa-d940-4adb-9345-bad743dcb54e",
         "Title":  "2024-05 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 21H2 for x64 (KB5038284)",
         "LegacyName":  "KB5038284-DotNetCumulative-21H2-Client-x64-Retail",
@@ -65,7 +65,7 @@
         "AdditionalHash":  "146 184 96 122 145 225 208 64 178 182 226 100 12 239 53 239 184 252 155 39 12 132 220 3 118 178 198 130 106 97 177 114"
     },
     {
-        "OSDVersion":  "2024.8.13.1",
+        "OSDVersion":  "2024.9.10.1",
         "Id":  "f4380eaa-d940-4adb-9345-bad743dcb54e",
         "Title":  "2024-05 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 21H2 for x64 (KB5038284)",
         "LegacyName":  "KB5038284-DotNetCumulative-21H2-Client-x64-Retail",
@@ -78,7 +78,7 @@
         "AdditionalHash":  "152 177 77 150 115 8 24 184 240 205 162 238 16 233 171 129 208 65 76 151 154 170 108 94 113 207 155 97 195 146 102 70"
     },
     {
-        "OSDVersion":  "2024.8.13.1",
+        "OSDVersion":  "2024.9.10.1",
         "Id":  "4adf097f-e0d0-4857-932a-bfb3f89bcc80",
         "Title":  "2024-06 Cumulative Update for Windows 10 Version 21H2 for x64-based Systems (KB5039211)",
         "LegacyName":  "KB5039211-UnifiedCumulative-21H2-Client-x64-Retail",
