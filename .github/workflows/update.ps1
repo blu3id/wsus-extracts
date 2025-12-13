@@ -21,7 +21,7 @@ function Extract-Updates {
         $UpdateGroup = switch -Wildcard ($u.LegacyName) {
             "*DotNetCumulative*" {"DotNetCU"}
             "*DotNetStandalone*" {"DotNet"}
-            "*UnifiedCumulativeSecurity*" {"LCU"}
+            "*UnifiedCumulative*" {"LCU"}
             "*ServicingStackUpdate*" {"SSU"}
             default {"Optional"}
         }
@@ -34,7 +34,6 @@ function Extract-Updates {
             }
 
             $update = [ordered]@{
-                    OSDVersion = $version
                     Id = $u.Id.UpdateId.Guid
                     Title = $u.Title
                     LegacyName = $u.LegacyName
@@ -51,7 +50,12 @@ function Extract-Updates {
         }
     }
 
-    return $updateOutput
+    return [ordered]@{
+        Metadata = [ordered]@{
+            OSDVersion = $version
+        }
+        Updates = $updateOutput
+    }
 }
 
 Write-Host "> Installing Windows Feature `"UpdateServices`" - WSUS Role"
@@ -122,8 +126,6 @@ Write-Host "> Writing WSUS Extracts"
 $updates = $wsus.GetUpdates()
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
-$21h2 = (Extract-Updates -Updates $updates -Build "21H2" -Version $version | ConvertTo-Json) -replace "`r`n","`n"
-Set-Content -Value $utf8.GetBytes($21h2) -Encoding Byte -Path windows-10-21h2.json
 $22h2 = (Extract-Updates -Updates $updates -Build "22H2" -Version $version | ConvertTo-Json) -replace "`r`n","`n"
 Set-Content -Value $utf8.GetBytes($22h2) -Encoding Byte -Path windows-10-22h2.json
 
