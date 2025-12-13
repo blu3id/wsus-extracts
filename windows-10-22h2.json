@@ -1,93 +1,91 @@
-[
-    {
-        "OSDVersion":  "2025.12.9.1",
-        "Id":  "f7b69dc0-a79b-470d-8ef4-489837fecd87",
-        "Title":  "2022-12 Security Update for Windows 10 Version 22H2 for x64-based Systems (KB5012170)",
-        "LegacyName":  "KB5012170-Windows1022H2-RTM-StandaloneSecurity-X64-TSL-World",
-        "KBNumber":  "5012170",
-        "CreationDate":  "2022-12-13T18:03:06Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "Optional",
-        "FileKBNumber":  "5012170",
-        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2022/08/windows10.0-kb5012170-x64_b120c3bdd40329520f54950d20d053d1e7660faa.cab",
-        "AdditionalHash":  "83 187 11 64 41 232 156 150 164 222 85 65 186 112 76 34 52 253 142 229 85 67 211 252 20 42 55 116 224 227 245 221"
-    },
-    {
-        "OSDVersion":  "2025.12.9.1",
-        "Id":  "369cd8c2-1e7e-49ba-a604-b0095b745159",
-        "Title":  "Microsoft .NET Framework 4.8.1 for Windows 10 Version 22H2 for x64 (KB5011048)",
-        "LegacyName":  "KB5011048-DotNetStandalone-22H2-Client-x64-Retail",
-        "KBNumber":  "5011048",
-        "CreationDate":  "2023-06-27T17:00:00Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "DotNet",
-        "FileKBNumber":  "5011048",
-        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/ftpk/2023/05/windows10.0-kb5011048-x64_60754528508631de484f430ca1b3bba317454ae1.cab",
-        "AdditionalHash":  "116 59 241 74 54 5 174 38 35 79 67 235 33 67 161 174 38 210 18 186 35 153 156 24 255 105 253 55 210 217 122 3"
-    },
-    {
-        "OSDVersion":  "2025.12.9.1",
-        "Id":  "f4fce270-a397-467f-b121-aa24991da4e5",
-        "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 22H2 for x64-based Systems (KB5031539)",
-        "LegacyName":  "KB5031539-Windows1022H2-RTM-ServicingStackUpdate-X64-TSL-World",
-        "KBNumber":  "5031539",
-        "CreationDate":  "2023-10-10T17:00:06Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "SSU",
-        "FileKBNumber":  "5031539",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/10/ssu-19041.3562-x64_bf1e4bd96a843cc56a3127ca721a5415ff3100e6.cab",
-        "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
-    },
-    {
-        "OSDVersion":  "2025.12.9.1",
-        "Id":  "d9d879de-9ad5-4846-83f7-5a29fa59b8b7",
-        "Title":  "2025-10 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5066747)",
-        "LegacyName":  "KB5066747-DotNetCumulative-22H2-Client-x64-Retail",
-        "KBNumber":  "5066747",
-        "CreationDate":  "2025-10-14T17:00:00Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "DotNetCU",
-        "FileKBNumber":  "5066130",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2025/09/windows10.0-kb5066130-x64-ndp481_06046fee7e84fdb252bf0dfa0d51772ada5604be.cab",
-        "AdditionalHash":  "252 192 209 178 55 164 80 210 66 16 226 231 213 235 118 19 132 96 74 98 27 9 132 68 50 91 235 116 179 42 165 212"
-    },
-    {
-        "OSDVersion":  "2025.12.9.1",
-        "Id":  "d9d879de-9ad5-4846-83f7-5a29fa59b8b7",
-        "Title":  "2025-10 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5066747)",
-        "LegacyName":  "KB5066747-DotNetCumulative-22H2-Client-x64-Retail",
-        "KBNumber":  "5066747",
-        "CreationDate":  "2025-10-14T17:00:00Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "DotNetCU",
-        "FileKBNumber":  "5066135",
-        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2025/09/windows10.0-kb5066135-x64-ndp48_cf6ef8abaf08a1d539382ea258a95f2fe6589880.cab",
-        "AdditionalHash":  "171 53 150 25 110 95 198 161 158 9 250 149 124 5 52 149 14 79 134 98 128 106 120 167 191 9 78 153 111 6 241 39"
-    },
-    {
-        "OSDVersion":  "2025.12.9.1",
-        "Id":  "775ac053-ca88-4d20-ba0a-0e7d3d0979bb",
-        "Title":  "2025-11 Security Update for Windows 10 Version 22H2 for x64-based Systems (KB5072653)",
-        "LegacyName":  "KB5072653-StandaloneCbs-22H2-Client-x64-Retail",
-        "KBNumber":  "5072653",
-        "CreationDate":  "2025-11-17T22:00:00Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "Optional",
-        "FileKBNumber":  "5072653",
-        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2025/11/windows10.0-kb5072653-x64_191c6b841b2a03e0f5603f7b0b3d24b92dec1ad2.cab",
-        "AdditionalHash":  "157 50 37 191 78 8 124 242 37 3 62 172 59 70 181 158 221 124 120 215 172 127 84 195 194 231 224 1 88 89 58 136"
-    },
-    {
-        "OSDVersion":  "2025.12.9.1",
-        "Id":  "29e941d9-8e63-4797-92c0-7fd12d444c84",
-        "Title":  "2025-12 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5071546)",
-        "LegacyName":  "KB5071546-UnifiedCumulative-22H2-Client-x64-Retail",
-        "KBNumber":  "5071546",
-        "CreationDate":  "2025-12-09T18:00:00Z",
-        "UpdateArch":  "x64",
-        "UpdateGroup":  "Optional",
-        "FileKBNumber":  "5071546",
-        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2025/12/windows10.0-kb5071546-x64_959682ea9e06447c3c2e5a6f0d0d8d0ade485d9e.cab",
-        "AdditionalHash":  "95 182 130 55 47 217 202 157 222 151 11 130 183 67 146 238 135 98 130 37 224 78 10 212 28 199 139 28 109 68 128 30"
-    }
-]
+{
+    "Metadata":  {
+                     "OSDVersion":  "2025.12.9.2"
+                 },
+    "Updates":  [
+                    {
+                        "Id":  "f7b69dc0-a79b-470d-8ef4-489837fecd87",
+                        "Title":  "2022-12 Security Update for Windows 10 Version 22H2 for x64-based Systems (KB5012170)",
+                        "LegacyName":  "KB5012170-Windows1022H2-RTM-StandaloneSecurity-X64-TSL-World",
+                        "KBNumber":  "5012170",
+                        "CreationDate":  "2022-12-13T18:03:06Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "Optional",
+                        "FileKBNumber":  "5012170",
+                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2022/08/windows10.0-kb5012170-x64_b120c3bdd40329520f54950d20d053d1e7660faa.cab",
+                        "AdditionalHash":  "83 187 11 64 41 232 156 150 164 222 85 65 186 112 76 34 52 253 142 229 85 67 211 252 20 42 55 116 224 227 245 221"
+                    },
+                    {
+                        "Id":  "369cd8c2-1e7e-49ba-a604-b0095b745159",
+                        "Title":  "Microsoft .NET Framework 4.8.1 for Windows 10 Version 22H2 for x64 (KB5011048)",
+                        "LegacyName":  "KB5011048-DotNetStandalone-22H2-Client-x64-Retail",
+                        "KBNumber":  "5011048",
+                        "CreationDate":  "2023-06-27T17:00:00Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "DotNet",
+                        "FileKBNumber":  "5011048",
+                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/ftpk/2023/05/windows10.0-kb5011048-x64_60754528508631de484f430ca1b3bba317454ae1.cab",
+                        "AdditionalHash":  "116 59 241 74 54 5 174 38 35 79 67 235 33 67 161 174 38 210 18 186 35 153 156 24 255 105 253 55 210 217 122 3"
+                    },
+                    {
+                        "Id":  "f4fce270-a397-467f-b121-aa24991da4e5",
+                        "Title":  "2023-10 Servicing Stack Update for Windows 10 Version 22H2 for x64-based Systems (KB5031539)",
+                        "LegacyName":  "KB5031539-Windows1022H2-RTM-ServicingStackUpdate-X64-TSL-World",
+                        "KBNumber":  "5031539",
+                        "CreationDate":  "2023-10-10T17:00:06Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "SSU",
+                        "FileKBNumber":  "5031539",
+                        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2023/10/ssu-19041.3562-x64_bf1e4bd96a843cc56a3127ca721a5415ff3100e6.cab",
+                        "AdditionalHash":  "105 40 9 41 186 0 97 241 63 238 9 223 171 3 169 113 221 18 126 186 53 128 236 149 126 233 59 225 107 89 240 98"
+                    },
+                    {
+                        "Id":  "d9d879de-9ad5-4846-83f7-5a29fa59b8b7",
+                        "Title":  "2025-10 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5066747)",
+                        "LegacyName":  "KB5066747-DotNetCumulative-22H2-Client-x64-Retail",
+                        "KBNumber":  "5066747",
+                        "CreationDate":  "2025-10-14T17:00:00Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "DotNetCU",
+                        "FileKBNumber":  "5066130",
+                        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2025/09/windows10.0-kb5066130-x64-ndp481_06046fee7e84fdb252bf0dfa0d51772ada5604be.cab",
+                        "AdditionalHash":  "252 192 209 178 55 164 80 210 66 16 226 231 213 235 118 19 132 96 74 98 27 9 132 68 50 91 235 116 179 42 165 212"
+                    },
+                    {
+                        "Id":  "d9d879de-9ad5-4846-83f7-5a29fa59b8b7",
+                        "Title":  "2025-10 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5066747)",
+                        "LegacyName":  "KB5066747-DotNetCumulative-22H2-Client-x64-Retail",
+                        "KBNumber":  "5066747",
+                        "CreationDate":  "2025-10-14T17:00:00Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "DotNetCU",
+                        "FileKBNumber":  "5066135",
+                        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2025/09/windows10.0-kb5066135-x64-ndp48_cf6ef8abaf08a1d539382ea258a95f2fe6589880.cab",
+                        "AdditionalHash":  "171 53 150 25 110 95 198 161 158 9 250 149 124 5 52 149 14 79 134 98 128 106 120 167 191 9 78 153 111 6 241 39"
+                    },
+                    {
+                        "Id":  "775ac053-ca88-4d20-ba0a-0e7d3d0979bb",
+                        "Title":  "2025-11 Security Update for Windows 10 Version 22H2 for x64-based Systems (KB5072653)",
+                        "LegacyName":  "KB5072653-StandaloneCbs-22H2-Client-x64-Retail",
+                        "KBNumber":  "5072653",
+                        "CreationDate":  "2025-11-17T22:00:00Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "Optional",
+                        "FileKBNumber":  "5072653",
+                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2025/11/windows10.0-kb5072653-x64_191c6b841b2a03e0f5603f7b0b3d24b92dec1ad2.cab",
+                        "AdditionalHash":  "157 50 37 191 78 8 124 242 37 3 62 172 59 70 181 158 221 124 120 215 172 127 84 195 194 231 224 1 88 89 58 136"
+                    },
+                    {
+                        "Id":  "29e941d9-8e63-4797-92c0-7fd12d444c84",
+                        "Title":  "2025-12 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5071546)",
+                        "LegacyName":  "KB5071546-UnifiedCumulative-22H2-Client-x64-Retail",
+                        "KBNumber":  "5071546",
+                        "CreationDate":  "2025-12-09T18:00:00Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "LCU",
+                        "FileKBNumber":  "5071546",
+                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2025/12/windows10.0-kb5071546-x64_959682ea9e06447c3c2e5a6f0d0d8d0ade485d9e.cab",
+                        "AdditionalHash":  "95 182 130 55 47 217 202 157 222 151 11 130 183 67 146 238 135 98 130 37 224 78 10 212 28 199 139 28 109 68 128 30"
+                    }
+                ]
+}
