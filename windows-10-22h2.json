@@ -1,6 +1,6 @@
 {
     "Metadata":  {
-                     "OSDVersion":  "2025.12.9.2"
+                     "OSDVersion":  "2026.1.13.1"
                  },
     "Updates":  [
                     {
@@ -76,16 +76,16 @@
                         "AdditionalHash":  "157 50 37 191 78 8 124 242 37 3 62 172 59 70 181 158 221 124 120 215 172 127 84 195 194 231 224 1 88 89 58 136"
                     },
                     {
-                        "Id":  "29e941d9-8e63-4797-92c0-7fd12d444c84",
-                        "Title":  "2025-12 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5071546)",
-                        "LegacyName":  "KB5071546-UnifiedCumulative-22H2-Client-x64-Retail",
-                        "KBNumber":  "5071546",
-                        "CreationDate":  "2025-12-09T18:00:00Z",
+                        "Id":  "56f75e36-370c-4062-a804-38a47df01f49",
+                        "Title":  "2026-01 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5073724)",
+                        "LegacyName":  "KB5073724-UnifiedCumulative-22H2-Client-x64-Retail",
+                        "KBNumber":  "5073724",
+                        "CreationDate":  "2026-01-13T18:00:00Z",
                         "UpdateArch":  "x64",
                         "UpdateGroup":  "LCU",
-                        "FileKBNumber":  "5071546",
-                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2025/12/windows10.0-kb5071546-x64_959682ea9e06447c3c2e5a6f0d0d8d0ade485d9e.cab",
-                        "AdditionalHash":  "95 182 130 55 47 217 202 157 222 151 11 130 183 67 146 238 135 98 130 37 224 78 10 212 28 199 139 28 109 68 128 30"
+                        "FileKBNumber":  "5073724",
+                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2026/01/windows10.0-kb5073724-x64_71636e5c7be4aeac22298b8ea6e4367d3c498d3d.cab",
+                        "AdditionalHash":  "91 54 97 17 174 113 172 22 214 173 64 196 33 112 149 41 226 46 69 166 211 94 172 133 9 185 148 193 148 100 157 11"
                     }
                 ]
 }
