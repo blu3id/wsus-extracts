@@ -1,6 +1,6 @@
 {
     "Metadata":  {
-                     "OSDVersion":  "2026.6.9.1"
+                     "OSDVersion":  "2026.6.9.2"
                  },
     "Updates":  [
                     {
@@ -52,18 +52,6 @@
                         "AdditionalHash":  "157 50 37 191 78 8 124 242 37 3 62 172 59 70 181 158 221 124 120 215 172 127 84 195 194 231 224 1 88 89 58 136"
                     },
                     {
-                        "Id":  "6982865b-9c34-4c53-b57e-4cf579356ac2",
-                        "Title":  "2026-05 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5087544)",
-                        "LegacyName":  "KB5087544-UnifiedCumulative-22H2-Client-x64-Retail",
-                        "KBNumber":  "5087544",
-                        "CreationDate":  "2026-05-12T17:00:00Z",
-                        "UpdateArch":  "x64",
-                        "UpdateGroup":  "LCU",
-                        "FileKBNumber":  "5087544",
-                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2026/05/windows10.0-kb5087544-x64_68a4c876ce2f0f6782cabf595944150e96ae0d78.cab",
-                        "AdditionalHash":  "86 155 253 228 189 104 80 68 227 69 166 161 221 231 19 135 176 60 225 22 184 157 133 101 14 222 94 4 19 197 113 155"
-                    },
-                    {
                         "Id":  "2c527c88-527c-4839-895b-4cb85816770f",
                         "Title":  "2026-05 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5088863)",
                         "LegacyName":  "KB5088863-DotNetCumulative-22H2-Client-x64-Retail",
@@ -86,6 +74,18 @@
                         "FileKBNumber":  "5087053",
                         "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2026/05/windows10.0-kb5087053-x64-ndp481_04e6c6c8d6318a9f17094b9e6c106a9a5eed4e35.cab",
                         "AdditionalHash":  "12 43 144 59 188 136 241 180 209 174 186 21 24 207 9 54 167 124 108 161 189 149 50 74 151 104 176 157 124 181 69 236"
+                    },
+                    {
+                        "Id":  "7ec9dcf4-fe90-40a3-b269-45a1aed996b6",
+                        "Title":  "2026-06 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5094127)",
+                        "LegacyName":  "KB5094127-UnifiedCumulative-22H2-Client-x64-Retail",
+                        "KBNumber":  "5094127",
+                        "CreationDate":  "2026-06-09T17:00:00Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "LCU",
+                        "FileKBNumber":  "5094127",
+                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2026/06/windows10.0-kb5094127-x64_1790c1beff9dbdaa00dc411e0f6258f576f5b7e3.cab",
+                        "AdditionalHash":  "7 155 155 242 243 81 122 229 116 170 98 31 225 238 1 234 98 126 248 133 4 83 50 168 147 70 68 33 158 59 139 23"
                     }
                 ]
 }
