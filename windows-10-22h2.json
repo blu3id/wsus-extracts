@@ -1,6 +1,6 @@
 {
     "Metadata":  {
-                     "OSDVersion":  "2026.7.14.1"
+                     "OSDVersion":  "2026.8.11.1"
                  },
     "Updates":  [
                     {
@@ -52,40 +52,40 @@
                         "AdditionalHash":  "157 50 37 191 78 8 124 242 37 3 62 172 59 70 181 158 221 124 120 215 172 127 84 195 194 231 224 1 88 89 58 136"
                     },
                     {
-                        "Id":  "0c7356a2-239e-40e5-aa6c-3114ca1bdf83",
-                        "Title":  "2026-07 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5099539)",
-                        "LegacyName":  "KB5099539-UnifiedCumulative-22H2-Client-x64-Retail",
-                        "KBNumber":  "5099539",
-                        "CreationDate":  "2026-07-14T17:00:00Z",
+                        "Id":  "e7323280-b72c-426f-97a7-f123e002bc66",
+                        "Title":  "2026-08 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5121647)",
+                        "LegacyName":  "KB5121647-DotNetCumulative-22H2-Client-x64-Retail",
+                        "KBNumber":  "5121647",
+                        "CreationDate":  "2026-08-11T17:00:00Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "DotNetCU",
+                        "FileKBNumber":  "5120709",
+                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2026/07/windows10.0-kb5120709-x64-ndp481_4eb1d5ac5f101ed262ac17fb7f01cbdc27977e30.cab",
+                        "AdditionalHash":  "166 98 78 142 8 27 75 116 213 218 180 183 17 19 20 91 129 229 132 90 54 115 81 220 3 178 157 200 204 236 182 53"
+                    },
+                    {
+                        "Id":  "e7323280-b72c-426f-97a7-f123e002bc66",
+                        "Title":  "2026-08 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5121647)",
+                        "LegacyName":  "KB5121647-DotNetCumulative-22H2-Client-x64-Retail",
+                        "KBNumber":  "5121647",
+                        "CreationDate":  "2026-08-11T17:00:00Z",
+                        "UpdateArch":  "x64",
+                        "UpdateGroup":  "DotNetCU",
+                        "FileKBNumber":  "5120701",
+                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2026/07/windows10.0-kb5120701-x64-ndp48_627604f266ac6b6d14d75f016a3814df3a4cfe97.cab",
+                        "AdditionalHash":  "22 80 154 151 2 2 46 141 152 205 152 115 53 114 134 162 110 175 186 173 184 56 230 223 37 157 255 232 145 109 146 87"
+                    },
+                    {
+                        "Id":  "16644b72-7795-403d-99a7-af6612eb434f",
+                        "Title":  "2026-08 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5120249)",
+                        "LegacyName":  "KB5120249-UnifiedCumulative-22H2-Client-x64-Retail",
+                        "KBNumber":  "5120249",
+                        "CreationDate":  "2026-08-11T17:00:00Z",
                         "UpdateArch":  "x64",
                         "UpdateGroup":  "LCU",
-                        "FileKBNumber":  "5099539",
-                        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2026/07/windows10.0-kb5099539-x64_0d122d9e17c21d0dd98df8afeb9dd26583695c31.cab",
-                        "AdditionalHash":  "101 198 174 136 146 207 129 66 51 171 130 171 100 200 249 249 220 128 83 47 131 248 145 74 44 170 56 226 228 0 76 27"
-                    },
-                    {
-                        "Id":  "83d3c0a9-1b58-42c0-8fef-1cf4f6f66164",
-                        "Title":  "2026-07 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5102203)",
-                        "LegacyName":  "KB5102203-DotNetCumulative-22H2-Client-x64-Retail",
-                        "KBNumber":  "5102203",
-                        "CreationDate":  "2026-07-14T17:00:00Z",
-                        "UpdateArch":  "x64",
-                        "UpdateGroup":  "DotNetCU",
-                        "FileKBNumber":  "5101000",
-                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2026/06/windows10.0-kb5101000-x64-ndp481_15c4fc50f8e93db7c2c7c3a6d27b23b63f1818a6.cab",
-                        "AdditionalHash":  "123 146 59 131 252 194 16 105 93 15 148 5 3 8 157 141 26 154 21 236 56 36 46 152 165 254 136 126 182 248 229 179"
-                    },
-                    {
-                        "Id":  "83d3c0a9-1b58-42c0-8fef-1cf4f6f66164",
-                        "Title":  "2026-07 Cumulative Update for .NET Framework 3.5, 4.8 and 4.8.1 for Windows 10 Version 22H2 for x64 (KB5102203)",
-                        "LegacyName":  "KB5102203-DotNetCumulative-22H2-Client-x64-Retail",
-                        "KBNumber":  "5102203",
-                        "CreationDate":  "2026-07-14T17:00:00Z",
-                        "UpdateArch":  "x64",
-                        "UpdateGroup":  "DotNetCU",
-                        "FileKBNumber":  "5101006",
-                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2026/06/windows10.0-kb5101006-x64-ndp48_0099502be7fd97f77e627ab5ecd357c87531a445.cab",
-                        "AdditionalHash":  "234 251 33 84 35 131 165 61 161 25 29 56 231 241 191 194 219 83 173 225 86 105 16 199 32 2 251 223 170 187 242 54"
+                        "FileKBNumber":  "5120249",
+                        "FileUri":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2026/08/windows10.0-kb5120249-x64_3519a66b88277af9104ea45839c6a5b6f47122f0.cab",
+                        "AdditionalHash":  "5 128 190 62 224 224 92 165 227 68 146 100 54 25 112 242 135 75 14 141 67 70 39 182 46 238 170 160 195 81 118 24"
                     }
                 ]
 }
