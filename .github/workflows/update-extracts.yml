@@ -2,7 +2,7 @@ name: Update WSUS extracts
 
 on:
   schedule:
-    - cron: "0 23 8-14 * *"
+    - cron: "0 22 8-14 * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
       - name: fast-exit
         env:
           GH_TOKEN: ${{ github.token }}
-        if: github.event.schedule == '0 23 8-14 * *'
+        if: github.event.schedule == '0 22 8-14 * *'
         run: |
           if [ $(date +%u) -eq 2 ]; then
             exit 0
