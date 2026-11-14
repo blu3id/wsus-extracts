@@ -1,6 +1,6 @@
 {
     "Metadata":  {
-                     "OSDVersion":  "2026.10.13.1"
+                     "OSDVersion":  "2026.11.10.1"
                  },
     "Updates":  [
                     {
@@ -76,16 +76,16 @@
                         "AdditionalHash":  "121 24 54 93 8 37 15 107 235 11 200 149 140 236 230 24 70 226 246 22 101 159 102 172 109 71 221 250 238 78 13 254"
                     },
                     {
-                        "Id":  "ac395651-eed0-47e7-a5cf-bd9ceccd6299",
-                        "Title":  "2026-10 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5126657)",
-                        "LegacyName":  "KB5126657-UnifiedCumulative-22H2-Client-x64-Retail",
-                        "KBNumber":  "5126657",
-                        "CreationDate":  "2026-10-13T18:30:00Z",
+                        "Id":  "4d46dfc1-07af-48cc-bb11-69c24b6b2415",
+                        "Title":  "2026-11 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5131096)",
+                        "LegacyName":  "KB5131096-UnifiedCumulative-22H2-Client-x64-Retail",
+                        "KBNumber":  "5131096",
+                        "CreationDate":  "2026-11-10T18:00:00Z",
                         "UpdateArch":  "x64",
                         "UpdateGroup":  "LCU",
-                        "FileKBNumber":  "5126657",
-                        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2026/10/windows10.0-kb5126657-x64_24bb294734135bb792a8dabab00bc178398a650a.cab",
-                        "AdditionalHash":  "10 147 15 175 165 165 101 172 202 88 168 160 114 191 177 126 53 186 131 111 60 100 12 94 40 226 83 21 160 97 252 78"
+                        "FileKBNumber":  "5131096",
+                        "FileUri":  "http://download.windowsupdate.com/c/msdownload/update/software/secu/2026/11/windows10.0-kb5131096-x64_27ff32463ac519477c3a6a4f0fa8daca1cc7d599.cab",
+                        "AdditionalHash":  "252 110 66 217 216 151 12 66 137 154 220 16 103 45 50 25 102 235 108 137 192 156 51 203 236 112 27 145 64 155 244 133"
                     }
                 ]
 }
